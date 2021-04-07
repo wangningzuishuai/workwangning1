@@ -14,25 +14,10 @@ public class UserController {
         return "hello spring boot";
     }
 
- @GetMapping("/hello1")
+
+	
+	@GetMapping("/hello1")
     public String hello1(){
-        return "hello spring boot";
-    }
-	
-	@GetMapping("/hello2")
-    public String hello2(){
-        return "张三范德萨";
-    }
-
-
-@GetMapping("/hello5")
-    public String hello5(){
-        return "张三";
-    }
-
-	
-	@GetMapping("/hello3")
-    public String hello3(){
         return "hello spring boot";
     }
 
