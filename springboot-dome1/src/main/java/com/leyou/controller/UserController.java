@@ -15,4 +15,10 @@ public class UserController {
     }
 
 
+	
+	@GetMapping("/hello1")
+    public String hello1(){
+        return "hello spring boot";
+    }
+
 }
