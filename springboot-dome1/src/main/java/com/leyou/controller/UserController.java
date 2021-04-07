@@ -27,8 +27,8 @@ public class UserController {
 
 
 	
-	@GetMapping("/hello1")
-    public String hello1(){
+	@GetMapping("/hello3")
+    public String hello3(){
         return "hello spring boot";
     }
 
