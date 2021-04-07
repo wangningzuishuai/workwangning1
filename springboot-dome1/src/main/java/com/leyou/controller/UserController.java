@@ -18,6 +18,11 @@ public class UserController {
     public String hello1(){
         return "hello spring boot";
     }
+	
+	@GetMapping("/hello2")
+    public String hello2(){
+        return "张三";
+    }
 
 
 
