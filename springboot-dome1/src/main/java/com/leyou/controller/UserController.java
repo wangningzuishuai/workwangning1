@@ -30,4 +30,10 @@ public class UserController {
         return "张三";
     }
 
+	
+	@GetMapping("/hello3")
+    public String hello3(){
+        return "hello spring boot";
+    }
+
 }
