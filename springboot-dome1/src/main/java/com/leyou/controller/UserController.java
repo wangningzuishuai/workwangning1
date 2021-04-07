@@ -21,7 +21,7 @@ public class UserController {
 	
 	@GetMapping("/hello2")
     public String hello2(){
-        return "张三";
+        return "张三范德萨";
     }
 
 
