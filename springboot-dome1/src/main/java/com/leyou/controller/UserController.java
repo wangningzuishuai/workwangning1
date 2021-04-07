@@ -25,6 +25,10 @@ public class UserController {
     }
 
 
+@GetMapping("/hello5")
+    public String hello5(){
+        return "张三";
+    }
 
 	
 	@GetMapping("/hello3")
